@@ -20,17 +20,6 @@ Toutes les références, personnes, services, dates et statistiques visibles dan
 
 React, TypeScript, Node.js, Express, MongoDB, automatisation n8n et intégration d’IA générative.
 
-## Périmètre public
-
-Ce dépôt ne contient :
-
-- aucun document, PDF ou contenu administratif réel ;
-- aucun nom, courriel, compte ou donnée personnelle réelle ;
-- aucune information identifiant une administration ou un établissement ;
-- aucun secret, fichier d’environnement, jeton ou identifiant d’accès ;
-- aucun prompt interne, workflow détaillé, règle métier ou code applicatif privé ;
-- aucune sauvegarde, base de données ou journal technique.
-
 ## Consultation
 
 Ouvrez `index.html` pour consulter l’étude de cas. La page `demo.html` propose une

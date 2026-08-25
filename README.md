@@ -33,6 +33,7 @@ Ce dépôt ne contient :
 
 ## Consultation
 
-Ouvrez `index.html` dans un navigateur ou consultez le site GitHub Pages associé.
+Ouvrez `index.html` pour consulter l’étude de cas. La page `demo.html` propose une
+démonstration interactive distincte, alimentée exclusivement par des données fictives.
 
 © 2026 Medi20197. Vitrine portfolio — tous droits réservés.

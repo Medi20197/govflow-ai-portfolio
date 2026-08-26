@@ -1,31 +1,58 @@
-# GitHub Pages - GovFlow AI
+# GitHub Pages — GovFlow AI
 
-- **Site public :** https://medi20197.github.io/govflow-ai-portfolio/
-- **Depot :** https://github.com/Medi20197/govflow-ai-portfolio
-- **Branche publiee :** `main`
-- **Dossier publie :** `/ (root)`
+- **Étude de cas :** https://medi20197.github.io/govflow-ai-portfolio/
+- **Démonstration interactive :** https://medi20197.github.io/govflow-ai-portfolio/demo.html
+- **Dépôt :** https://github.com/Medi20197/govflow-ai-portfolio
 
-## Publication
+## Fonctionnalités réellement disponibles
 
-Ce depot contient une vitrine HTML statique. GitHub Pages publie directement les fichiers de la branche `main`.
+### Tableau de bord
+
+- quatre indicateurs fictifs : documents actifs, éléments à valider, délai moyen et taux d’approbation ;
+- liste des documents récents ;
+- journal d’activité simulé ;
+- accès à la création d’un document fictif.
+
+### Assistant simulé
+
+- suggestions pour préparer une note, structurer un compte rendu ou créer un plan de rapport ;
+- saisie libre locale et réponses génériques prédéfinies ;
+- aucun appel à une IA ou à un service externe ;
+- aucune conservation des saisies.
+
+### Documents fictifs
+
+- quatre exemples au chargement ;
+- recherche par titre ou référence fictive ;
+- filtres par statut ;
+- création locale d’un brouillon avec type et objet ;
+- mise à jour immédiate de la liste sans serveur.
+
+### Circuit générique
+
+- étapes Rédaction, Révision, Validation et Publication ;
+- progression manuelle de la simulation ;
+- mise à jour visuelle de l’étape courante et du statut.
+
+### Interface
+
+- navigation entre quatre vues ;
+- menu responsive ;
+- notifications locales ;
+- retour vers l’étude de cas.
+
+## Limites de la démonstration
+
+La démo ne possède ni authentification réelle, ni backend, ni base de données, ni IA externe. Les ajouts disparaissent au rechargement. Toutes les références, personnes, dates et statistiques sont fictives.
+
+## Publication GitHub Pages
+
+Le site est publié depuis la branche `main`, dossier `/ (root)`, avec **Deploy from a branch**. `index.html` contient l’étude de cas et `demo.html` la démonstration.
 
 ```bash
 git add .
-git commit -m "Mettre a jour la vitrine GovFlow AI"
+git commit -m "Mettre à jour la vitrine GovFlow AI"
 git push
 ```
 
-## Configuration
-
-Dans **Settings > Pages > Build and deployment** :
-
-1. selectionner **Deploy from a branch** ;
-2. choisir la branche `main` ;
-3. choisir le dossier `/ (root)` ;
-4. enregistrer.
-
-## Verification
-
-Apres une modification, controler l'onglet **Actions**, puis ouvrir le site public. Le depot et la page doivent contenir uniquement des informations fictives autorisees.
-
-[Index GitHub Pages des projets](https://github.com/Medi20197/mailflow-demo/blob/main/GITHUB_PAGES.md)
+[Index des trois projets](https://github.com/Medi20197/mailflow-demo/blob/main/GITHUB_PAGES.md)
